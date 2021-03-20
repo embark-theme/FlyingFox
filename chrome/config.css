@@ -3,26 +3,25 @@
 @import "icons/extension-icons.css";
 @import "window-controls/wc-without-tabline.css";
 @import "hide-tabline.css";
-@import "userChrome-static.css";
+@import "userChrome-hover.css";
 
 :root {
-    --dark-0: #151d28;
-    --dark-base: #192330;
-    --dark-1: #233143;
-    --dark-2: #2a3b51;
-    --dark-3: #374e6c;
-    --dark-4: #3e5879;
-    --light-0: #d7dfea;
-    --light-base: #afc0d5;
+    --dark-0: #100e23;
+    --dark-base: #1e1c31;
+    --dark-1: #2d2b40;
+    --dark-2: #3E3859;
+    --dark-3: #585273;
+    --dark-4: #585273;
+    --light-0: #8a889d;
+    --light-base: #cbe3e7;
     --light-1: #a1b5ce;
     --light-2: #94abc7;
     --light-3: #87a0c0;
     --light-4: #7996b9;
-    --accent: #63cdcf;
-    --accent: #59a0bb;
-    --yellow: #ad9a90;
-    --green: #4a818a;
-    --red: #925178;
+    --accent: #a1efd3;
+    --yellow: #ffe6b3;
+    --green: #63f2f1;
+    --red: #f48FB1;
     --extension-icon-mask: grayscale(85%) invert(75%) sepia(8%) saturate(862%) hue-rotate(173deg) brightness(88%);
 
     /* expanded width of the sidebar. 
